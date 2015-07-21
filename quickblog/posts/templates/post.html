@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block main %}
+<a href="{% url "posts-list" %}">See all posts</a>
+<div id = "headers">
+<p>{{ post.content }}</p>
+<p>Tags: {{ post.tags }}</p>
+<p>Posted: {{ post.created_at }}</p>
+<p>Updated: {{ post.updated_at }}</p>
+<a href="upvote/" method="post">Vote Up</a>
+{% endblock %}

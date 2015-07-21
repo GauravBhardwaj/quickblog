@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% if post.id %}
+<h1>Edit post</h1>
+{% else %}
+<h1>Add post</h1>
+{% endif %}
+{% block main %}
+<form action="{{ action }}" method="POST">
+  {% csrf_token %}
+  <ul>
+    {{ form.as_p }}
+  <input id="save_contact" type="submit" value="Save" />
+  </ul>
+</form>
+
+<a href="{% url "posts-list" %}">back to list</a>
+{% endblock %}

@@ -1,0 +1,54 @@
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Georgia, Times, "Times New Roman", serif;
+ color: black;
+ width: auto;
+ height: auto;
+ border-right: 1px solid black;
+}
+#header {
+ background-color: #666;
+ border-bottom: 1px solid #333;
+}
+#sidebarLeft {
+ float: left;
+ width: 160px;
+ margin-left: 10px;
+ padding-top: 1em;
+}
+#mainRight {
+ padding-top: 1em;
+ margin: 0 2em 0 200px;
+}
+#footer {
+ clear: both;
+ background-color: #ccc;
+ padding-bottom: 1em;
+ border-top: 1px solid #333;
+ padding-left: 200px;
+}
+#headers{
+  float: left;
+  margin-left: 100px;
+}
+h2.sidebar {
+  font-size: 150%;
+}
+.post_footer {
+  font-family:cursive;
+  font-size:100%;
+}
+hr {
+  border: 0;
+  color: gray;
+  background-color: gray;
+  height: 1px;
+}
+#id_content{
+  height: 80px;
+}
+label[for=id_content]
+{
+  vertical-align:middle;
+}

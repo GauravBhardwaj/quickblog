@@ -1,0 +1,4 @@
+Django==1.5
+psycopg2==2.6.1
+selenium==2.46.0
+wheel==0.24.0

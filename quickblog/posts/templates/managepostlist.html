@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block main %}
+<a href="{% url "post-new" %}">add new blogpost</a>
+<div id = "headers">
+<h2 class="sidebar" >Posts</h2>
+<ul>
+  {% for post in object_list %}
+    <li class="post">{{ post }}</li>
+    {% user %}
+    <a href="{% url "post-edit" pk=post.id %}">edit</a>
+    <a href="{{ post.get_absolute_url }}">see-more</a>
+
+    <a href="{% url "post-delete" pk=post.id %}">Delete</a>
+    {% endif %}
+
+    <div class="post_footer">Created: {{ post.created_at }} | Tags: {{ post.tags }}</div>
+    <hr>
+    </hr>
+    {% endfor %}
+</ul>
+<a href="/register/">Register Here</a>
+
+</div>
+{% endblock %}
