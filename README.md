@@ -1,6 +1,8 @@
 #Welcome to the quickblog
-Hey Hacker, Recruiter , Browser or Stalker !!! Just now that you are here please
-click this link and see how this bare minimum blog looks to you
+
+Hey Hacker, Recruiter , Browser or Stalker !!! Now that when you are here
+can you please click this link and see how this bare minimum blog looks to you ?
+
 
 # Features:
 1. Post as anonymous, No login or registeration required
