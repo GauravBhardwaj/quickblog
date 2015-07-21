@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '1&6b*q_#c(11t&c-2drq&_$@(&ib@2v*(#r=b$3v@4jy&%y%16'
+SECRET_KEY = '#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -86,8 +86,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',#'django.db.backends.sqlite3',
         'NAME': 'quickblog',
-        'USER': 'gaurav',
-        'PASSWORD': 'gaurav',
+        'USER': '#',
+        'PASSWORD': '#',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
