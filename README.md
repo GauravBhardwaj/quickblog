@@ -1,8 +1,9 @@
-#Welcome to the quickblog
+#Welcome to the quickblog, this is just my attempt to comeup with a blog similar to ycombinator news, but being totally anonymus. I will keep on adding features to it. 
 
-Hey Hacker, Recruiter , Browser or Stalker !!! Now that when you are here
-can you please click this link and see how this bare minimum blog looks to you ?
+Hey Hacker, Recruiter , Browser or Anyone !!! Now that when you are here
+can you please click this link below and see how this bare minimum blog looks to you ? Please leave a post there, thanks!!! 
 
+# http://bhardwajgaurav.pythonanywhere.com/
 
 # Features:
 1. Post as anonymous, No login or registeration required
