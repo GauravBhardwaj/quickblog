@@ -1,7 +1,7 @@
 #Welcome to the quickblog !!!
 This is just my attempt to comeup with a blog similar to ycombinator news, but being totally anonymus. I will keep on adding features to it. 
 
-Hey Hacker, Recruiter , Browser or Anyone !!! Now that when you are here
+Now that when you are here
 can you please click this link below and see how this bare minimum blog looks to you ? Please leave a post there, thanks!!! 
 
 # http://bhardwajgaurav.pythonanywhere.com/
